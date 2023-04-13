@@ -1,0 +1,90 @@
+.proyecto-contenedor{
+    margin-top: 2rem;
+}
+
+.proyectos {
+    padding-right: 32px;
+    padding-left: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.proyecto--boton--repositorio{
+    background-color: transparent;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    width: 105px;
+    height: 51px;
+}
+
+.proyecto--boton--demo{
+    background-color: #2A7AE4;
+    color: white;
+    width: 105px;
+    height: 51px;
+}
+
+.proyectos--desarrollo--descripcion {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    color:lightslategray;
+}
+
+
+.proyectos--desarrollo--titulo {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    color:lightslategray;
+}
+
+.proyectos--imagen {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+.proyectos--titulo{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-weight: 700;
+    color:lightslategray;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .proyectos--titulo{
+    font-size: 22px;
+
+    }
+    .proyectos--imagen{
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        justify-content: center;
+    
+    }
+    .proyectos {
+        display: flex;
+        flex-direction: column;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        justify-content: space-around;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+    }
+    .proyecto-contenedor{
+        margin-top: 1rem;
+    }
+}

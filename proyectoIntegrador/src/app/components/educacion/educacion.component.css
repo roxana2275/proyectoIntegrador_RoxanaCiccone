@@ -1,0 +1,16 @@
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color:#F1DDBF;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    padding: 3rem;
+}
+.card-img-top{
+    width:auto;
+    height: 10rem;
+}
+
+h3,h4,p {
+    font-family: 'Roboto Mono', monospace;
+}

@@ -1,0 +1,33 @@
+.sobre-mi {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.row {
+    width: 100%;     
+    padding-top: 2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+@media screen and (max-width:780px) {
+    .sobre-mi {
+        padding-top: 1rem;
+        padding-bottom:1rem;    
+    }
+    .row {
+        padding-top: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+}

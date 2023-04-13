@@ -1,0 +1,69 @@
+/* .experiencia--titulo{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+} */
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color:#F1DDBF;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    padding: 3rem;
+}
+.card-img-top{
+    width:auto;
+    height: 10rem;
+}
+
+/* .container{ */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 2rem;
+} */
+
+/* .experiencia--titulo--detalle {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    justify-content: space-between;
+}
+
+.experiencia-contenedor-imagen{
+    width: 10rem;
+    height: auto;
+} */
+
+h3,h4,p {
+
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* @media (max-width:768px) {
+
+    .experiencia--titulo{
+        padding-top: 1rem;
+        padding-bottom:1rem;    
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    h4, p{
+        font-size: 0.75rem;
+    }
+    .experiencia--titulo--detalle{
+        grid-template-columns: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .container{
+        margin-left: 0.5rem;
+    }
+} */

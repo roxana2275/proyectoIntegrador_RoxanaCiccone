@@ -1,0 +1,29 @@
+
+.foto {
+    border-radius: 50%;
+    width: 40%;
+    border: 1rem solid rgba(255, 255, 255, 0.2);
+    margin-left: 2rem;
+}
+.foto--nombre {
+    color:whitesmoke;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 2rem;
+}
+
+.foto--titulo {
+    color:whitesmoke;
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 2rem;
+}
+@media(max-width:768px){
+    .foto--nombre{
+        font-size: 1.5rem;
+    }
+
+    .foto--titulo {
+        font-size: 1.2rem;
+    }
+}
