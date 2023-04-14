@@ -14,16 +14,18 @@
 }
 
 .proyecto--boton--repositorio{
-    background-color: transparent;
-    border-color: #2A7AE4;
-    color: #2A7AE4;
+    background-color: #2A7AE4;
+    color: white;
     width: 105px;
     height: 51px;
+
 }
 
 .proyecto--boton--demo{
-    background-color: #2A7AE4;
-    color: white;
+    
+    background-color: transparent;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
     width: 105px;
     height: 51px;
 }
