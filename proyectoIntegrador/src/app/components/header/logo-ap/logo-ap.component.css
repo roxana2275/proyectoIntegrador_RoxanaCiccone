@@ -1,14 +1,14 @@
 .logoAP{
-    width: 20rem !important;
-    height: auto !important;
+    width: 150px;
+    height: auto;
 }
 
-@media screen and (min-width: 0px) {
+/* @media screen and (min-width: 0px) {
     .logoAP{
         width: 8rem !important;
     }
-}
-/* @media (min-width:361px){
+} 
+@media (min-width:361px){
     .logoAP{
         width: 10rem !important;
     }

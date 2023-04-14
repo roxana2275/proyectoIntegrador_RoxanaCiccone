@@ -1,0 +1,23 @@
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color:#F1DDBF;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    padding: 3rem;
+}
+.circles {
+    border-color:#C7E596 ;
+}
+
+
+@media (max-width:768px) {
+
+    .educacion--titulo{
+        padding-top: 1rem;
+        padding-bottom:1rem;    
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}

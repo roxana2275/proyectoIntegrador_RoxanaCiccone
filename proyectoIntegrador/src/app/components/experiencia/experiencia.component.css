@@ -1,7 +1,7 @@
-/* .experiencia--titulo{
+.experiencia--titulo{
     padding-top: 4rem;
     padding-bottom: 4rem;
-} */
+}
 
 h2 {
     font-size: 2.5rem;
@@ -43,7 +43,7 @@ h3,h4,p {
 }
 
 
-/* @media (max-width:768px) {
+ @media (max-width:768px) {
 
     .experiencia--titulo{
         padding-top: 1rem;
@@ -52,6 +52,7 @@ h3,h4,p {
     h2{
         font-size: 1.5rem;
     }
+    /*
     h3 {
         font-size: 1rem;
     }
@@ -65,5 +66,5 @@ h3,h4,p {
     }
     .container{
         margin-left: 0.5rem;
-    }
-} */
+    }*/
+} 

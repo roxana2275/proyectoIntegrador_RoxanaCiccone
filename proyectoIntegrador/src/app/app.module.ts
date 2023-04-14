@@ -16,6 +16,7 @@ import { BotonComponent } from './components/header/boton/boton.component';
 import { LogoApComponent } from './components/header/logo-ap/logo-ap.component';
 import { RedesComponent } from './components/header/redes/redes.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

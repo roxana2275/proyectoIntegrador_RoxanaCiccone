@@ -1,16 +1,4 @@
-
 .redes--logo {
     width: 5rem;
-    justify-content: space-around;
-}
-
-@media (min-width:360px) {
-    .redes--logo{
-        width: 2rem;
-    }
-}
-@media (min-width:780px){
-    .redes--logo{
-        width: 3rem;
-    }
+    height: auto;
 }

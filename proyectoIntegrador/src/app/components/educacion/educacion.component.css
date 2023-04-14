@@ -14,3 +14,14 @@ h2 {
 h3,h4,p {
     font-family: 'Roboto Mono', monospace;
 }
+
+@media (max-width:768px) {
+
+    .educacion--titulo{
+        padding-top: 1rem;
+        padding-bottom:1rem;    
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
